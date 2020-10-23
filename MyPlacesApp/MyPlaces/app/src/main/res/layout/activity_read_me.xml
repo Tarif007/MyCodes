@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReadMe">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="388dp"
+        android:layout_height="625dp"
+        android:background="@color/cardview_light_background"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:lines="@android:integer/config_mediumAnimTime"
+        android:text="Welcome to my places app. Please read the below instructions to run the app smoothly. 1. App will open with a beautiful flash screen and you will see the main UI. 2.Click add new place and go to map interface. Initially you will see your current location. Long tap to any location on the map to select your favorite place. It will select the place with red marker. 3.Go back and you will see the places you selected in a list view. When you click any place from the list it will take you to that place in the map interface.  4.  When clicking save place button it will take you to another activity. Click on the add icon on the bottom and it will take you to another activity . Here you will see 3 fields . First you put the address name then description about it and then select the priority to show how favorite the place was. After that click save icon on the top right corner and it will save the place.  You will see the place name in the list. 5. To delete a place just swipe right or left and it will delete the place. To delete all the places click on top right menu and select remove all addresses. It will remove all the addresses.  Do not forget to read the READ ME! in the main UI.  "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

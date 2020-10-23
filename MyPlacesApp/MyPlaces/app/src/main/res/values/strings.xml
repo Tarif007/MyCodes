@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">MyPlaces</string>
+    <string name="title_activity_maps" />
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDBOlzWrDR84QoIRyofxOhP9Bd8zM--N54</string>
+
+
+</resources>
